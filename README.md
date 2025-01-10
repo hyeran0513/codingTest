@@ -29,3 +29,7 @@
 | **front()**     | 큐의 맨 앞 요소를 제거하지 않고 반환                |
 | **isEmpty()**   | 큐가 비어 있는지 확인                               |
 | **length**      | 큐의 현재 길이를 반환                                |
+
+## - 정렬
+선택정렬: 주어진 리스트에서 가장 작은 요소를 찾아서 맨 앞의 요소와 교환하는 과정을 반복하여 정렬 <br/><br/>
+![Group 13](https://github.com/user-attachments/assets/3f94b60c-838d-4b08-aaa5-3dbc540a7132)
