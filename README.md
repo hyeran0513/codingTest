@@ -39,3 +39,6 @@
 
 삽입정렬: 현재 요소를 그보다 앞쪽의 정렬된 부분과 비교하며 적절한 위치에 삽입하여 정렬을 완성하는 알고리즘 <br/><br/>
 ![Group 27](https://github.com/user-attachments/assets/2ab12c81-946b-49c8-849f-cd7c7f824b1e)
+
+이분검색: 정렬된 배열에서 탐색 범위를 절반씩 줄이며 원하는 값을 효율적으로 찾는 알고리즘 <br/><br/>
+![Group 28](https://github.com/user-attachments/assets/194b2ae4-76d1-4e13-b85c-8e37be008d8a)
