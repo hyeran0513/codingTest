@@ -33,3 +33,6 @@
 ## - 정렬
 선택정렬: 주어진 리스트에서 가장 작은 요소를 찾아서 맨 앞의 요소와 교환하는 과정을 반복하여 정렬 <br/><br/>
 ![Group 13](https://github.com/user-attachments/assets/3f94b60c-838d-4b08-aaa5-3dbc540a7132)
+
+버블정렬: 인접한 두 요소를 비교하여 정렬하는 단순한 정렬 알고리즘 <br/><br/>
+![Group 14](https://github.com/user-attachments/assets/1904cd94-b596-400f-b320-8c6915c22188)
