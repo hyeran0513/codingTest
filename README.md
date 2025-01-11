@@ -32,7 +32,10 @@
 
 ## - 정렬
 선택정렬: 주어진 리스트에서 가장 작은 요소를 찾아서 맨 앞의 요소와 교환하는 과정을 반복하여 정렬 <br/><br/>
-![Group 13](https://github.com/user-attachments/assets/3f94b60c-838d-4b08-aaa5-3dbc540a7132)
+![Group 25](https://github.com/user-attachments/assets/86b0fe3e-5b0f-416b-8d25-a182d0587321)
 
 버블정렬: 인접한 두 요소를 비교하여 정렬하는 단순한 정렬 알고리즘 <br/><br/>
-![Group 14](https://github.com/user-attachments/assets/1904cd94-b596-400f-b320-8c6915c22188)
+![Group 26](https://github.com/user-attachments/assets/7c4e0f8f-a23e-4909-90b6-8571224d1e63)
+
+삽입정렬: 현재 요소를 그보다 앞쪽의 정렬된 부분과 비교하며 적절한 위치에 삽입하여 정렬을 완성하는 알고리즘 <br/><br/>
+![Group 27](https://github.com/user-attachments/assets/2ab12c81-946b-49c8-849f-cd7c7f824b1e)
