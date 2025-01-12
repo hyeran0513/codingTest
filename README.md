@@ -72,3 +72,28 @@ while (X) {
 
 console.log(res); // 출력: 821
 ```
+
+### 3. 소수 판별
+소수를 구할 때 **제곱근까지만 검사해도 됩니다**
+그 이유는 **약수의 대칭성** 때문 🌟
+
+한 쌍의 약수만 확인하면 나머지 쌍도 알 수 있기 때문에<br/> 
+**제곱근까지만 검사**해도 n의 약수가 존재하는지 알 수 있습니다.
+
+![Group 29](https://github.com/user-attachments/assets/fed7ce84-8df3-45d2-8c71-eafbcf9cccb2)
+
+```
+function isPrime(num) {
+  if (num === 1) {
+    return false;
+  }
+
+  for (let i = 2; i <= parseInt(Math.sqrt(num)); i++) {
+    if (num % i === 0) {
+      return false;
+    }
+
+    return true;
+  }
+}
+```
