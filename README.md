@@ -44,7 +44,9 @@
 ![Group 28](https://github.com/user-attachments/assets/194b2ae4-76d1-4e13-b85c-8e37be008d8a)
 
 ## 완전탐색
-`% 10`: 각 자리 숫자를 하나씩 분리할 때 쓰는 테크닉
+### 1. 자리수 분리
+`% 10`: 숫자의 일의 자리 가져오기 <br/>
+`x = Math.floor(x / 10)`: 숫자를 한 자리 줄이기
 
 ```
 // 예) tmp: 128
@@ -53,4 +55,20 @@
 tmp % 10 → 8
 tmp % 10 → 2
 tmp % 10 → 1
+```
+
+### 2. 숫자 뒤집기
+`res * 10 + tmp`: 숫자를 거꾸로 만들기
+
+```
+let x = 128;
+let res = 0;
+
+while (X) {
+  let tmp = x % 10;
+  res = res * 10 + tmp;
+  x = parseIng(x / 10);
+}
+
+console.log(res); // 출력: 821
 ```
