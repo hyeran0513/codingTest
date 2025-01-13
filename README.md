@@ -8,7 +8,7 @@
 
 ## - 스택/큐
 스택: LIFO (Last In First Out)<br/><br/>
-![Group 2](https://github.com/user-attachments/assets/b08bbe33-b9fc-4bd7-b7a5-4c7dd4b307ce)
+![Group 38](https://github.com/user-attachments/assets/f0b38d53-7664-4e78-9608-fcbcc625b2a6)
 <br/>
 
 | 명령어          | 설명                                                     |
@@ -19,7 +19,7 @@
 | **isEmpty()**   | 스택이 비어 있는지 확인 |
 
 큐: FIFO (First In First Out)<br/><br/>
-![Group 3](https://github.com/user-attachments/assets/4da090a1-d9e5-4e8c-9747-af319adb6fb4)
+![Group 40](https://github.com/user-attachments/assets/9c339f47-4ac5-401e-a02e-9556a039a10b)
 <br/>
 
 | **명령어**      | **설명**                                                    |
@@ -97,3 +97,58 @@ function isPrime(num) {
   }
 }
 ```
+
+---
+
+## 그래프와 탐색 (DFS, BFS)
+G(V,E): 노드와 노드 사이의 연결 관계를 나타내는 구조
+V: 노드 / E: 간선
+1. 무방향 그래프 <br/><br/>
+![Group 32](https://github.com/user-attachments/assets/4f8224fd-1039-4905-bcb1-b7e9971a599e)
+
+```
+a b
+1 2
+1 3
+2 4
+3 4
+2 5
+
+graph[a][b] = 1;
+graph[b][a] = 1;
+```
+
+![Group 33](https://github.com/user-attachments/assets/1ccda6fd-8e20-49d6-9ac1-2d54a1d04473)
+
+---
+
+2. 방향 그래프 <br/><br/>
+![Group 34](https://github.com/user-attachments/assets/e3a993ad-70a3-452f-aa91-028b22c10518)
+
+```
+a b
+1 2
+1 3
+3 4
+4 2
+2 5
+
+// 행 → 열
+graph[a][b] = 1;
+```
+
+![Group 35](https://github.com/user-attachments/assets/0c1e46d4-9baa-4b79-a5c1-896391f5792d)
+
+3. 가중치 방향 그래프 <br/> <br/>
+![Group 36](https://github.com/user-attachments/assets/199c2f23-5252-4a24-8a99-dc58fc1f506b)
+
+```
+a b c
+1 2 2
+2 5 5
+4 2 2
+
+graph[a][b] = c;
+```
+
+![Group 37](https://github.com/user-attachments/assets/08126cb9-7e9a-49ed-b83c-d02bb1c34be0)
