@@ -8,7 +8,7 @@
 
 ## - 스택/큐
 스택: LIFO (Last In First Out)<br/><br/>
-![Group 38](https://github.com/user-attachments/assets/f0b38d53-7664-4e78-9608-fcbcc625b2a6)
+![Group 42](https://github.com/user-attachments/assets/d8e9be82-d00c-48bd-9260-358fb44fcfed)
 <br/>
 
 | 명령어          | 설명                                                     |
@@ -19,7 +19,7 @@
 | **isEmpty()**   | 스택이 비어 있는지 확인 |
 
 큐: FIFO (First In First Out)<br/><br/>
-![Group 40](https://github.com/user-attachments/assets/9c339f47-4ac5-401e-a02e-9556a039a10b)
+![Group 43](https://github.com/user-attachments/assets/5881aaaf-1027-453e-8c21-78b2462ccf7f)
 <br/>
 
 | **명령어**      | **설명**                                                    |
@@ -32,16 +32,16 @@
 
 ## - 정렬
 선택정렬: 주어진 리스트에서 가장 작은 요소를 찾아서 맨 앞의 요소와 교환하는 과정을 반복하여 정렬 <br/><br/>
-![Group 25](https://github.com/user-attachments/assets/86b0fe3e-5b0f-416b-8d25-a182d0587321)
+![Group 44](https://github.com/user-attachments/assets/c8121e25-6936-4690-ae5c-fb836fb00f61)
 
 버블정렬: 인접한 두 요소를 비교하여 정렬하는 단순한 정렬 알고리즘 <br/><br/>
-![Group 26](https://github.com/user-attachments/assets/7c4e0f8f-a23e-4909-90b6-8571224d1e63)
+![Group 45](https://github.com/user-attachments/assets/d7ca1f66-bb7c-498f-b5f2-b8eadc66a3ce)
 
 삽입정렬: 현재 요소를 그보다 앞쪽의 정렬된 부분과 비교하며 적절한 위치에 삽입하여 정렬을 완성하는 알고리즘 <br/><br/>
-![Group 27](https://github.com/user-attachments/assets/2ab12c81-946b-49c8-849f-cd7c7f824b1e)
+![Group 46](https://github.com/user-attachments/assets/1a326fc8-96b5-4a18-9e7b-43e84c76a84f)
 
 이분검색: 정렬된 배열에서 탐색 범위를 절반씩 줄이며 원하는 값을 효율적으로 찾는 알고리즘 <br/><br/>
-![Group 28](https://github.com/user-attachments/assets/194b2ae4-76d1-4e13-b85c-8e37be008d8a)
+![Group 49](https://github.com/user-attachments/assets/a9fc3c4e-2bdc-486e-b907-5275abd6335a)
 
 ## 완전탐색
 ### 1. 자리수 분리
@@ -80,7 +80,7 @@ console.log(res); // 출력: 821
 한 쌍의 약수만 확인하면 나머지 쌍도 알 수 있기 때문에<br/> 
 **제곱근까지만 검사**해도 n의 약수가 존재하는지 알 수 있습니다.
 
-![Group 29](https://github.com/user-attachments/assets/fed7ce84-8df3-45d2-8c71-eafbcf9cccb2)
+![Group 48](https://github.com/user-attachments/assets/0021e454-01eb-434b-a274-670c2f97b56a)
 
 ```
 function isPrime(num) {
