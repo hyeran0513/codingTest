@@ -155,7 +155,7 @@ graph[a][b] = c;
 
 ![Group 37](https://github.com/user-attachments/assets/08126cb9-7e9a-49ed-b83c-d02bb1c34be0)
 
-### 2. BFS 넓이우선탐색
+### 2. BFS 너비우선탐색 : 최단 거리를 구하는 방법론
 ![Group 41](https://github.com/user-attachments/assets/b51b1324-998f-471a-b8a4-5c8cc33c36e9)
 
 ![Group 432](https://github.com/user-attachments/assets/81047593-95e1-4fe7-9920-47b114fe95be)
